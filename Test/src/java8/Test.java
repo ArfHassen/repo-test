@@ -1,3 +1,4 @@
+package java8;
 public class Test {
     public static void main (String...args){
         NameParser<String> parser = new NameParser();
@@ -15,7 +16,7 @@ public class Test {
 
 class Factory{
     static public String test(String n, String n2){
-        return "test";
+        return "test1";
     }
 }
 
