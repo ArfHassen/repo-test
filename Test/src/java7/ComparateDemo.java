@@ -1,5 +1,5 @@
 package java7;
-import org.apache.commons.lang3.StringUtils;
+//import org.apache.commons.lang3.StringUtils;
 
 public class ComparateDemo
 {
@@ -14,7 +14,7 @@ public class ComparateDemo
 	void testStringUtils()
 	{
 		//if( field.equals( "" ) ){}//will generate null pointer exception.
-		if(StringUtils.equals("","MyStringValue")) {}// don't generate exception even in the case of runtimeexception
+		//if(StringUtils.equals("","MyStringValue")) {}// don't generate exception even in the case of runtimeexception
 	}
 	void differenceBetweenIdenticalAndEquals(){
 		String s1 = "String";
